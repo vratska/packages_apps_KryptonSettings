@@ -34,4 +34,11 @@
         android:summary="@string/screenshot_shutter_sound_summary"
         android:defaultValue="1" />
 
+    <!-- Gaming mode -->
+    <com.krypton.settings.preference.SystemSettingMasterSwitchPreference
+        android:key="gaming_mode_enabled"
+        android:title="@string/gaming_title"
+        android:summary="@string/gaming_title_summary"
+        android:fragment="com.krypton.settings.fragment.miscellaneous.GamingModeSettingsFragment" />
+
 </PreferenceScreen>
