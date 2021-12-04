@@ -53,6 +53,12 @@
     <PreferenceCategory
         android:title="@string/gaming_mode_performance">
 
+        <Preference
+            android:key="graphics_driver_dashboard"
+            android:title="@string/graphics_driver_dashboard_title"
+            android:summary="@string/graphics_driver_dashboard_summary"
+            android:fragment="com.android.settings.development.graphicsdriver.GraphicsDriverDashboard" />
+
         <com.krypton.settings.preference.SystemSettingSwitchPreference
             android:key="gaming_mode_change_performance_level"
             android:title="@string/gaming_mode_change_performance_title"
